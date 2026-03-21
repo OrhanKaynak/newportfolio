@@ -15,7 +15,8 @@ body{
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 section{
@@ -146,5 +147,38 @@ header{
     margin: 5px 0;
 }
 .innersoftware_child p{
+    font-size: 15px;
+}
+/* SERTİFİKALARIM */
+.inner_courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.child_courses{
+    flex-basis: 15%;
+    color: #fff;
+    padding: 20px 10px 20px 10px;
+    border: 1px solid transparent;
+    transition: all .5s ease-in-out;
+    border-radius: 5px;
+}
+.child_courses:hover{
+    border: 1px solid #24caac;
+}
+.child_courses .detail{
+    display: flex;
+    justify-content: space-between;
+}
+.child_courses .detail ul{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+.child_courses .detail ul li{
+    color: gold;
     font-size: 15px;
 }
