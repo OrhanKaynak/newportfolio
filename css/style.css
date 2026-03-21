@@ -24,7 +24,7 @@ section{
 }
 
 .section_title{
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 
 .section_title h2{
@@ -113,4 +113,38 @@ header{
 .btn:hover{
     background: transparent;
     letter-spacing: 1px;
+}
+
+/* YAZILIMLAR */
+.innersoftware{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    padding: 100px;
+}
+.innersoftware_child{
+    flex-basis: 31%;
+    color: #fff;
+    padding: 25px 20px;
+    background: rgba(55, 66, 80, 0.281);
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: all .5s ease-in-out;
+}
+.innersoftware_child:hover{
+    background: transparent;
+    border: 1px solid #24caac;
+}
+.innersoftware_child .icon{
+    font-size: 25px;
+    color: #24caac;
+}
+.innersoftware_child h3{
+    font-size: 20px;
+    margin: 5px 0;
+}
+.innersoftware_child p{
+    font-size: 15px;
 }
