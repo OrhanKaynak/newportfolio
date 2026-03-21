@@ -159,7 +159,7 @@ header{
     margin: 0 auto;
 }
 .child_courses{
-    flex-basis: 15%;
+    flex-basis: 5%;
     color: #fff;
     padding: 20px 10px 20px 10px;
     border: 1px solid transparent;
@@ -181,4 +181,19 @@ header{
 .child_courses .detail ul li{
     color: gold;
     font-size: 15px;
+}
+.courses_img{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.courses_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
