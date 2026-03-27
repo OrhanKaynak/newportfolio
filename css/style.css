@@ -264,12 +264,11 @@ header{
 }
 .child_about{
     flex-basis: 46%;
-    margin-bottom: 30%;
+    margin: 50px 0;
 }
 
 .about_img{
     width: 120px;
-    margin_bottom: 10px;
 }
 .about_img img{
     border-radius: 50%;
