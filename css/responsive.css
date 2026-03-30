@@ -29,6 +29,8 @@
         width: 100%;
         left: 0;
         padding: 0;
+        transition: .5s;
+        z-index: -1;
     }
     .nav_links li a{
         border: 1px solid #fff;
@@ -41,26 +43,28 @@
        border-bottom: none;
     }
 
-    .inner_home{
+    .inner_anasayfa{
         flex-wrap: wrap;
         flex-direction: column-reverse;
     }
 
-    .child_home{
+    .child_anasayfa{
         flex-basis: 100%;
     }
-    .child_home:last-child{
+    .child_anasayfa:last-child{
         margin-bottom: 20px;
     }
-    .child_home h1{
+    .child_anasayfa h1{
         font-size: 30px;
         line-height: 35px;
     }
-    .child_home p{
+    .child_anasayfa p{
         font-size: 20px;
     }
     /* yazilimlar */
-
+    .innersoftware{
+        flex-direction: column;
+    }
     .innersoftware_child{
         flex-basis: 100%;
         margin-bottom: 30px;
@@ -101,7 +105,7 @@
 
     /* iletisim */
 
-    child_contact{
+    .child_contact{
         flex-basis: 100%;
         margin-bottom: 30px;
     }
